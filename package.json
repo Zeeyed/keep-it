@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Zeeyed/keep-it/issues"
   },
-  "homepage": "https://github.com/Zeeyed/keep-it#readme"
+  "homepage": "https://github.com/Zeeyed/keep-it#readme",
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
 }
