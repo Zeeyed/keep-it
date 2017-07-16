@@ -25,4 +25,5 @@ const keepItList = [
   },
 ];
 
-ReactDOM.render(<Main keepItList={ keepItList }/>, document.getElementById('root'));
+console.log(keepItList)
+//ReactDOM.render(<Main keepItList={ keepItList }/>, document.getElementById('root'));
