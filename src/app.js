@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Main from './component/main';
 
 const keepItList = [
   {
@@ -24,6 +25,4 @@ const keepItList = [
     ]
   },
 ];
-
-console.log(keepItList)
-//ReactDOM.render(<Main keepItList={ keepItList }/>, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('root'));
