@@ -1,0 +1,109 @@
+$grey      : #e6e6e6;
+$blue:  #2196f3;
+$color-red: #D6434D;
+$white: #fff;
+$draft: #8CC0D6;
+
+.content{
+  width: 30%;
+  padding: 0;
+  background-color: $grey;
+  height: 100%;
+  display: flex;
+  .subitems-search{
+    padding: 20px;
+    background: #F8F6F4;
+    border-right: 3px solid darken($blue,10%);
+    input[type="search"]{
+      width: 100%;
+      border-radius: 40px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+  .subitems{
+    order: 1;
+    width: 500px;
+    .subitems-list{
+      border-bottom: 1px solid #ddd;
+      .subitems-list-item{
+        background: #F8F6F4;
+        transition: background-color .3s ease;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        border-right: 3px solid darken($blue,10%);
+        padding: 11px;
+        margin: 0;
+        display: flex;
+        cursor: pointer;
+        .subitem-logo{
+          order: 1;
+          margin-right: 20px;
+        }
+        .preview{
+          order: 2;
+          flex: 1;
+          margin-left: 9px;
+          h3{
+            margin: 0; 
+            font-weight: 400;
+            color: #333;
+            small{
+              float: right;
+              color: #AAA;
+              font-size: .8125rem;
+            }
+          }
+          .tags{
+            display: flex;
+            .tags-list-item{
+              border-radius: 1rem;
+              margin-left: 8px;
+              font-size: 0.65rem;
+              border-radius: 1rem;
+              margin: 0.2rem 0.1rem;
+              padding: 0.3rem;
+              &.red {
+                background: $color-red;
+                color: $white;
+              }
+              &.draft {
+                background: $draft;
+                color: $white;
+              }
+            }
+          }
+          p{
+            color: #888;
+            margin: 5px 0;
+          }
+        }
+        &:hover{
+          background: #fff;
+        }
+        &.active{
+          background: $blue;
+          border-right: 3px solid rgba(0,0,0,0.1);
+          .preview {
+           h3, h3 small, p { color: #fff; }
+        }
+        }
+      }
+    }
+  }
+  .subitems-detail{
+    -webkit-flex: 1;
+    order: 2;
+    background-color: $grey;
+    h2{
+      margin: 0;
+      padding: 20px 20px;
+      font-weight: 400;
+    }
+    p{
+      padding: 20px 20px;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+  }
+}
