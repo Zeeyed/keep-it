@@ -1,0 +1,44 @@
+$midnight  : #1f282f;
+$white: #fff;
+
+.sidebar{
+  min-width: 160px;
+  background-color: $midnight;
+  min-height: 100vh;
+  float: left;
+}
+
+.sidebar-list{
+  display: flex;
+  margin-top: 20px;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.sidebar-item{
+  display: flex;
+  //margin-top: 20px;
+  padding: 5px 14px;
+  cursor: pointer;
+  color: #acb1b7;
+  font-size: 13px;
+  transition: all .2s ease-out;
+  .sb-logo{
+    margin-right: 10px;
+  }
+  .subitem-title{
+    padding-right: 25px;
+    line-height: 20px;
+  }
+    &:hover{
+      color: white;
+    }
+}
+
+.sb-active {
+  background: #2f3c46;
+  border-left: 3px solid $white;
+  .subitem-title{
+    color: $white;
+  }
+}
