@@ -70,6 +70,15 @@ export default class Content extends Component {
 
           </ul>
           </div>
+
+          <div className="subitems-detail">
+          <h2>Note Detail</h2>
+            <p>
+              You probably haven't heard of them skateboard YOLO 3 wolf moon enamel pin. Semiotics beard normcore, cliche roof
+              party everyday carry vaporware la croix art party cardigan retro.
+              Beard cray umami, thundercats fingerstache paleo affogato prism tilde actually +1. Enamel pin cronut actually, kickstarte
+            </p>
+          </div>
         </div>
     )
   }

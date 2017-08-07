@@ -5,7 +5,7 @@ $white: #fff;
 $draft: #8CC0D6;
 
 .content{
-  width: 30%;
+  width: 88%;
   padding: 0;
   background-color: $grey;
   height: 100%;
@@ -23,8 +23,8 @@ $draft: #8CC0D6;
     }
   }
   .subitems{
-    order: 1;
-    width: 500px;
+    order: 2;
+    width: 32%;
     .subitems-list{
       border-bottom: 1px solid #ddd;
       .subitems-list-item{
@@ -91,6 +91,22 @@ $draft: #8CC0D6;
       }
     }
   }
+  .subitems-detail{
+    -webkit-flex: 1;
+    order: 2;
+    background-color: $grey;
+    h2{
+      margin: 0;
+      padding: 20px 20px;
+      font-weight: 400;
+    }
+    p{
+      padding: 20px 20px;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+  }
+
   .subitems-detail{
     -webkit-flex: 1;
     order: 2;
