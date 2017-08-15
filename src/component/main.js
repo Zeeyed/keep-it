@@ -7,7 +7,7 @@ import Content from '../component/content/content';
 export default class App extends Component {
   render(){
     return (
-      <div>
+      <div className="wrapper">
         <Header />
         <Sidebar />
         <Content />

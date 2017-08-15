@@ -2,9 +2,11 @@ $midnight  : #1f282f;
 $white: #fff;
 
 .sidebar{
-  min-width: 160px;
+  //min-width: 160px;
+  width: 160px;
   background-color: $midnight;
   min-height: 100vh;
+  height: auto;
   float: left;
 }
 

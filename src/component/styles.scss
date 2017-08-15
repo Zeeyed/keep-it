@@ -1,10 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700,400italic);
 $font-stack: 'Open Sans', sans-serif;
-body {
+html{
   font-family: $font-stack;
-  margin: 0px;
+  height: 100%;  
 }
-
+body {
+  margin: 0px;
+  height: 100%;
+}
+.wrapper{
+  height: auto;
+  min-height: 100%;
+  overflow: hidden;
+}
 a {
   text-decoration: none;
   color: black;
