@@ -4,6 +4,8 @@ import '../sidebar/sidebar.scss';
 export default class Sidebar extends Component {
   render(){
     return (
+      <div>
+      <span className="bkj"></span>
       <aside className="sidebar">
         <ul className="sidebar-list">
           <li className="sidebar-item sb-active">
@@ -38,6 +40,7 @@ export default class Sidebar extends Component {
           </li>
         </ul>
       </aside>
+      </div>
     )
   }
 }

@@ -31,14 +31,6 @@ export default class Content extends Component {
               <p>The brand new season of Top Gear</p>
             </div>
           </li>
-
-          <li className="subitems-list-item">
-            <div className="preview">
-              <h3>Sara McLaclan <small>Jul 15</small></h3>
-              <p>The brand new season of Top Gear</p>
-            </div>
-          </li>
-
           <li className="subitems-list-item">
             <div className="preview">
               <h3>Sara McLaclan <small>Jul 15</small></h3>
@@ -53,12 +45,6 @@ export default class Content extends Component {
                   <li className="tags-list-item red">Important</li>
                   <li className="tags-list-item draft">Draft</li>                
                 </ul>
-            </div>
-          </li>
-          <li className="subitems-list-item">
-            <div className="preview">
-              <h3>Sara McLaclan <small>Jul 15</small></h3>
-              <p>The brand new season of Top Gear</p>
             </div>
           </li>
           <li className="subitems-list-item">
